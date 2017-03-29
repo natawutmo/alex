@@ -1,0 +1,46 @@
+div.square {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	background-color: #FF0000;
+	position: relative;
+	display: inline;
+}
+
+div.button {
+	height: 20px;
+	width: 150px;
+	background-color: silver;
+	display: inline;
+	border-radius: 5px;
+	padding: 2px 8px 2px 8px;
+	cursor: pointer;
+}
+
+div.puzzle {
+	visibility: hidden;
+}
+
+div.cover {
+	min-width: 30px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+p.covsent {
+	display: inline-block;
+}
+
+#ash {
+	background-color: red;
+}
+
+#misty {
+	background-color: blue;
+}
+
+#brock {
+	background-color: gray;
+}
