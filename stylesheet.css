@@ -17,16 +17,29 @@ div.button {
 	cursor: pointer;
 }
 
-div.puzzle {
-	visibility: hidden;
-}
-
 div.cover {
 	min-width: 30px;
 	height: 15px;
 	display: inline-block;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+div.tile {
+	height: 120px;
+	width: 120px;
+	background-color: #FF3030;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 120px;
+	color: #FF3030;
+}
+
+div.seltile {
+	background-color: white;
+	cursor: default;
 }
 
 p.covsent {
@@ -43,4 +56,59 @@ p.covsent {
 
 #brock {
 	background-color: gray;
+}
+
+#greenbutton {
+	background-color: green;
+	color: white;
+}
+
+#bluebutton {
+	background-color: blue;
+	color: white;
+}
+
+#blackbutton {
+	background-color: black;
+	color: white;
+}
+
+#redbutton {
+	background-color: red;
+	color: white;
+}
+
+#purplebutton {
+	background-color: purple;
+	color: white;
+}
+
+#ff0000button {
+	background-color: #FF0000;
+}
+
+#ff0000button {
+	background-color: #F00000;
+}
+
+#ff3030button {
+	background-color: #FF3030;
+}
+
+#ff6060button {
+	background-color: #FF6060;
+}
+
+#ff9090button {
+	background-color: #FF9090;
+}
+
+#ffc0c0button {
+	background-color: #FFC0C0;
+}
+
+#tiletext {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
 }
