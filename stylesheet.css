@@ -42,6 +42,18 @@ div.seltile {
 	cursor: default;
 }
 
+.tiletext {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.long {
+	display: block;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
 p.covsent {
 	display: inline-block;
 }
@@ -105,10 +117,4 @@ p.covsent {
 
 #ffc0c0button {
 	background-color: #FFC0C0;
-}
-
-#tiletext {
-	display: table-cell;
-	vertical-align: middle;
-	line-height: normal;
 }

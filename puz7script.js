@@ -1,11 +1,8 @@
 $(document).ready(function() {
-	$('.tile').click(function() {
-		$(this).addClass('seltile');
-	});
 	$('#mainbutton').click(function() {
 		var pw = $('input[name=maininput]').val();
-		if (pw === '1009224872') {
-			document.location.href = "puzsix.html";
+		if (pw === '111888444') {
+			document.location.href = "8puz.html";
 		}
 		else {
 			$('#prompt').html('Incorrect password!');
@@ -13,3 +10,4 @@ $(document).ready(function() {
 		$('input[name=maininput]').val("");
 	});
 });
+
